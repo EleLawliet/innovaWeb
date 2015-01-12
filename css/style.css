@@ -1,1 +1,220 @@
-.active{text-decoration:underline !important}.sinUnderline{text-decoration:none !important}body{font-family:'Lato',sans-serif;font-size:16px;margin:0;overflow-x:hidden;padding:0;background:url("http://magdeleine.co/wp-content/uploads/2014/09/iYvDeqVGRbebiQv2PIJi_DSC_8407-1400x929.jpg");background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;}.Social{padding:.2em 0;background:#141412;position:fixed;left:0;right:0;color:#fff;height:2em;overflow:hidden;z-index:1}.Social-redes{float:right;overflow:hidden;width:20em}.SocialRedesIcon-link{color:#fff}.SocialRedes-icon{float:left}.SocialRedesIcon-i{margin:.5em 1em 0 0}.SocialSearch{float:right;}.SocialSearch::after{color:#000;content:"\f002";cursor:pointer;font-family:"FontAwesome";margin-left:-5.5em;position:absolute;right:27px;top:10px}.SocialSearch-input{margin:.3em 1.5em 0 0;-webkit-border-radius:.5em;padding:.3em .5em;border:solid 1px #fff;color:#000}.HeaderBrand{background:rgba(0,0,0,0.8);height:5em;left:0;padding:1em 0;position:relative;right:0;text-align:left;top:2em}.HeaderBrand-figure{display:inline-block;margin:0}.HeaderBrand-img{width:120px;margin:.5em 0 0 7.5em}.HeaderMenu{display:inline-block}.HeaderMenu-ul{list-style:none;margin-top:-2em}.HeaderMenu-li{float:left;margin:0 3em 0 0}.HeaderMenu-a{color:#fff;text-decoration:none;}.HeaderMenu-a:hover{text-decoration:underline}.Content{margin:2em 0 0 0;overflow:hidden}.Content-left{margin-top:2em;margin-left:3.5em;float:left;width:60%;text-align:center}.ContentItem{width:300px;height:200px;display:inline-block;margin:1em 1em 2em 1em;background:url("http://img4.wikia.nocookie.net/__cb20130810002359/le-grupo-cancerigeno/es/images/1/1f/Gente_feliz.jpg");-webkit-background-size:cover;-moz-background-size:cover;background-repeat:no-repeat}.ContentItem-description{position:relative;left:0;right:0;background:rgba(225,225,225,0.8);top:156px;padding:.1em 0;}.ContentItem-description p{color:#577c99;font-weight:bold;text-transform:uppercase}.Content-right{margin-top:2em;float:left;width:250px}.ContentRight-large{list-style:none;background:#fff;height:100%;width:210px;padding:.3em 0 0 0}.ContentRight-item{border-bottom:1px dotted #76726f;display:block;}.ContentRight-item:last-child{border-bottom:none;margin-bottom:.4em}.ContentRightItem-title{margin:.5em 0 0 1em}.ContentRight-img{margin:0;padding:0;}.ContentRight-img img{width:190px;height:90px;margin:.2em 10px 0 10px}.ContentRightItem-caption{font-size:.8em;text-align:left;margin:0 10px .3em 10px;padding-bottom:.2em}
+/*
+ * @contribution @r_chancay @Junior_eLZambo
+ * @author @r_chancay @Junior_eLZambo
+ * @date 10/01/15
+ */
+.active {
+  text-decoration: underline !important;
+}
+.sinUnderline {
+  text-decoration: none !important;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  background: url("http://magdeleine.co/wp-content/uploads/2014/09/iYvDeqVGRbebiQv2PIJi_DSC_8407-1400x929.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Social {
+  padding: 0.2em 0;
+  background: #141412;
+  position: fixed;
+  left: 0;
+  right: 0;
+  color: #fff;
+  height: 2em;
+  overflow: hidden;
+  z-index: 1;
+}
+.Social-redes {
+  float: right;
+  overflow: hidden;
+  width: 20em;
+}
+.SocialRedesIcon-link {
+  color: #fff;
+}
+.SocialRedes-icon {
+  float: left;
+}
+.SocialRedesIcon-i {
+  margin: 0.5em 1em 0 0;
+}
+.SocialSearch {
+  float: right;
+}
+.SocialSearch::after {
+  color: #000;
+  content: "\f002";
+  cursor: pointer;
+  font-family: "FontAwesome";
+  margin-left: -5.5em;
+  position: absolute;
+  right: 27px;
+  top: 10px;
+}
+.SocialSearch-input {
+  margin: 0.3em 1.5em 0 0;
+  border-radius: 0.5em;
+  padding: 0.3em 0.5em;
+  border: solid 1px #fff;
+  color: #000;
+}
+.HeaderBrand {
+  background: rgba(0,0,0,0.8);
+  height: 5em;
+  left: 0;
+  padding: 1em 0;
+  position: relative;
+  right: 0;
+  text-align: left;
+  top: 2em;
+}
+.HeaderBrand-figure {
+  display: inline-block;
+  margin: 0;
+}
+.HeaderBrand-img {
+  width: 120px;
+  margin: 0.5em 0 0 13em;
+}
+.HeaderMenu {
+  display: inline-block;
+}
+.HeaderMenu-ul {
+  list-style: none;
+  margin-top: -2em;
+}
+.HeaderMenu-li {
+  float: left;
+  margin: 0 3em 0 0;
+}
+.HeaderMenu-a {
+  color: #fff;
+  text-decoration: none;
+}
+.HeaderMenu-a:hover {
+  text-decoration: underline;
+}
+.Content {
+  margin: 2em 0 0 0;
+  overflow: hidden;
+}
+.Content-left {
+  margin-top: 2em;
+  margin-left: 3.5em;
+  float: left;
+  width: 60%;
+  text-align: center;
+}
+.ContentItem {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin: 1em 1em 2em 1em;
+  background: url("http://img4.wikia.nocookie.net/__cb20130810002359/le-grupo-cancerigeno/es/images/1/1f/Gente_feliz.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ContentItem-description {
+  position: relative;
+  left: 0;
+  right: 0;
+  background: rgba(225,225,225,0.8);
+  top: 156px;
+  padding: 0.1em 0;
+}
+.ContentItem-description p {
+  color: #577c99;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.Content-right {
+  margin-top: 2em;
+  float: left;
+  width: 250px;
+}
+.ContentRight-large {
+  list-style: none;
+  background: #fff;
+  height: 100%;
+  width: 210px;
+  padding: 0.3em 0 0 0;
+}
+.ContentRight-item {
+  border-bottom: 1px dotted #76726f;
+  display: block;
+}
+.ContentRight-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0.4em;
+}
+.ContentRightItem-title {
+  margin: 0.5em 0 0 1em;
+}
+.ContentRight-img {
+  margin: 0;
+  padding: 0;
+}
+.ContentRight-img img {
+  width: 190px;
+  height: 90px;
+  margin: 0.2em 10px 0 10px;
+}
+.ContentRightItem-caption {
+  font-size: 0.8em;
+  margin: 0 10px 0.3em 10px;
+  padding-bottom: 0.2em;
+  text-align: left;
+}
+.ContentSubmenuBar {
+  background: rgba(225,225,225,0.8);
+  height: 0.5em;
+  padding: 1.3em;
+  text-align: center;
+  width: 60.8em;
+  margin-left: 16%;
+  margin-top: 3.5em;
+}
+.ContentSubmenuBar-item {
+  display: inline-block;
+  padding-right: 1.8em;
+  font-weight: bold;
+}
+.ContentSubmenuBar-link {
+  color: #76726f;
+  text-decoration: none;
+}
+.ContentSubmenuBar-link:hover {
+  text-decoration: underline;
+}
+.ContentDescription {
+  text-align: center;
+}
+.ContentDescriptionItem {
+  background: rgba(225,225,225,0.8);
+  border-radius: 6em 0em 6em 0em;
+  display: inline-block;
+  margin: 2em;
+  text-align: center;
+  width: 25em;
+}
+.ContentDescripcionTitle {
+  color: #76726f;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.ContentDescripcionSubtitle {
+  color: #76726f;
+  margin: 2.5em;
+  margin: 3.5em;
+  text-align: justify;
+}
+.fa {
+  margin-top: 0.5em;
+}
